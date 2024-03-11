@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/site.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#"><img src="./images/Silicon_logotype.svg" alt=""/></a>
+
+      <nav>
+        <a class="nav-link active" href="#">Overview</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+
+      <div class="theme-switch">
+        <label for="theme-switch-mode">Light</label>
+        <label class="switch">
+          <input id="theme-switch-mode" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <label for="theme-switch-mode">Dark</label>
+      </div>
+
+      <div class="account-buttons">
+        <a class="btn-secondary" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In</a>
+        <a class="btn-theme" href="#"><i class="fa-regular fa-user"></i> Sign Up</a>
+      </div>
+
+      <button class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <section class="showcase">
+    
+    <div class="container">
+      <div class="content">
+        <h1>Task Management Assistant You Gonna Love</h1>
+
+        <p>We offer you a new generation of task management system. Plan, manage & track all your tasks in one flexible tool.</p>
+
+        <div class="get-started">
+          <a class="btn-theme" asp-action="Index" asp-controller="Products">Ger started for free</a>
+        </div>
+
+        <div class="brands">
+          <h6>Largest companies use our tool to work efficiently</h6>
+          <div class="brands-logo">
+            <img class="brand-logo" src="./images/brands/logoipsum-one.svg" alt="Alternate Text" />
+            <img class="brand-logo" src="./images/brands/logoipsum-two.svg" alt="Alternate Text" />
+            <img class="brand-logo" src="./images/brands/logoipsum-three.svg" alt="Alternate Text" />
+            <img class="brand-logo" src="./images/brands/logoipsum-four.svg" alt="Alternate Text" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="showcaseImg" src="./images/taskmaster/taskmaster.svg" alt="taskmaster img" />
+  </section>
+
+  <script src="https://kit.fontawesome.com/a2363ef521.js" crossorigin="anonymous"></script>
+  <script src="./js/site.js" ></script>
+</body>
+</html>

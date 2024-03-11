@@ -1,0 +1,28 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-theme: #6366f1;
+  --color-theme-o: #6365f1e6;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #6366F1;
+  --color-gray-100: #f3f6ff;
+  --color-gray-200: #eff2fc;
+  --color-gray-300: #e2e5f1;
+  --color-gray-400: #d4d7e5;
+  --color-gray-500: #b4b7c9;
+  --color-gray-600: #9397ad;
+  --color-gray-700: #565973;
+  --color-gray-800: #33354d;
+  --color-gray-900: #0B0F19;
+
+
+}
+
+@mixin shadow-theme {
+  box-shadow: 0 8px 18px -8px var(--color-theme-0);
+}
+
+@mixin shadow-secondary {
+  box-shadow: 0 8px 18px -8px var(--color-gray-400);
+}
